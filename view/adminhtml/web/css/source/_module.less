@@ -1,0 +1,26 @@
+/**
+ * HAUNV88
+ *
+ * @author      HAUNV88
+ * @package     HAUNV88_Base
+ * @copyright   Copyright (c) HAUNV88
+ */
+
+@import "_icons.less";
+.admin__menu [data-ui-id="menu-nvh-base-menu"] > a:before {
+	content: @icons-nvh__content !important;
+	font-family: @icons-nvh__font-name !important;
+	font-size: 2rem;
+	padding-top: .2rem;
+}
+
+.nvhbase-extensions > .title:before {
+	content: @icons-nvh__content !important;
+	font-family: @icons-nvh__font-name !important;
+	font-size: 1.8rem;
+	padding-top: .2rem;
+}
+
+.menu-wrapper .admin__menu .level-0>.submenu>ul> [data-ui-id="menu-nvh-productslider-productslider"].level-1:only-of-type >.submenu-group-title {
+	display: block;	
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * HAUNV88
+ *
+ * @author HAUNV88
+ * @package     HAUNV88_Base
+ * @copyright   Copyright (c) HAUNV88
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="HAUNV88_Base" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Backend"/>
+        </sequence>
+    </module>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * HAUNV88
+ *
+ * @author HAUNV88
+ * @package     HAUNV88_Base
+ * @copyright   Copyright (c) HAUNV88
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<!--head>
+		<css src="HAUNV88_Base::css/font_icons.css"/>
+	</head-->
+</page>

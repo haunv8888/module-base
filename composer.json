@@ -1,0 +1,22 @@
+{
+  "name": "haunv88/module-base",
+  "description": "Core for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "HAUNV88",
+      "email": "haunv8888@gmail.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "HAUNV88\\Base\\": ""
+    }
+  }
+}

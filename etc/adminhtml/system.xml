@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * HAUNV88
+ *
+ * @author HAUNV88
+ * @package     HAUNV88_Base
+ * @copyright   Copyright (c) HAUNV88
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="nvhbase" translate="label" sortOrder="88888888" class="nvhbase-extensions">
+			<label>NVH Extensions</label>
+		</tab>
+	</system>
+</config>

@@ -1,0 +1,35 @@
+/**
+ * HAUNV88
+ *
+ * @author      HAUNV88
+ * @package     HAUNV88_Base
+ * @copyright   Copyright (c) HAUNV88
+ */
+
+@icons-nvh-font__name: 'NVH Icons';
+@icons-nvh-file__name: 'nvh-icons';
+@icons-nvh-font__name-path: '@{baseDir}NVH_Base/fonts/@{icons-nvh-file__name}/@{icons-nvh-file__name}';
+
+@icons-nvh__content: "\62";
+
+.lib-font-face(
+    @family-name: @icons-nvh-font__name,
+    @font-path: '@icons-nvh-font__name-path',
+    @font-weight: normal,
+    @font-style: normal
+);
+
+
+.admin__menu [data-ui-id="menu-nvh-base-menu"] > a:before {
+	content: @icons-nvh__content;
+	font-family: @icons-nvh-font__name;
+	font-size: 2rem;
+	padding-top: .2rem;
+}
+
+.nvh-extensions > .title:before {
+	content: @icons-nvh__content;
+	font-family: @icons-nvh-font__name;
+	font-size: 1.3rem;
+	padding-top: .2rem;
+}

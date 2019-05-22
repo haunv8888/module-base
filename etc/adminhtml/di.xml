@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * HAUNV88
+ *
+ * @author HAUNV88
+ * @package     HAUNV88_Base
+ * @copyright   Copyright (c) HAUNV88
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Backend\Model\Menu\Builder\AbstractCommand">
+        <plugin name="nvh_modifyparam" type="HAUNV88\Base\Plugin\ModifyParam"/>
+    </type>
+</config>
